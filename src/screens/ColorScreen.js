@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View, StyleSheet, Button } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
 
+
 const ColorScreen = () => {
 
   const [colors, setColors] = useState([])
